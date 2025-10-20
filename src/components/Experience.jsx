@@ -1,11 +1,12 @@
 import React from 'react'
 import Animated from './Animated'
+import { FaBriefcase } from 'react-icons/fa'
 
 export default function Experience() {
   return (
     <Animated className="card" index={1}>
       <section id="experience">
-        <h2 className="text-xl font-semibold">Experience</h2>
+    <h2 className="text-xl font-semibold flex items-center gap-2"><FaBriefcase /> Experience</h2>
         <div className="mt-3 text-sm text-slate-300">
           <div className="font-medium">Front End Developer at Source it Solutions</div>
           <div className="mt-1">JUN 2024 to NOV 2024</div>

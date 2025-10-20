@@ -1,5 +1,6 @@
 import React from 'react'
 import Animated from './Animated'
+import { FaGithub } from 'react-icons/fa'
 
 const projects = [
   {
@@ -28,7 +29,7 @@ export default function Projects() {
           <Animated key={p.title} index={i + 1} className="card">
             <h3 className="text-lg font-medium">{p.title}</h3>
             <p className="mt-2 text-slate-300 text-sm">{p.description}</p>
-            <a className="mt-4 inline-block text-accent hover:underline text-sm" href={p.link} target="_blank">View on GitHub</a>
+            <a className="mt-4 inline-flex items-center gap-2 text-accent hover:underline text-sm" href={p.link} target="_blank"><FaGithub />View on GitHub</a>
           </Animated>
         ))}
       </div>

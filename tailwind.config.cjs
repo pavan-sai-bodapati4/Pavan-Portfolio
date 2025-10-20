@@ -4,10 +4,10 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0f172a',
-        accent: '#06b6d4',
+        accent: '#f59e0b',
         brand: {
-          DEFAULT: '#06b6d4',
-          deep: '#0891b2'
+          DEFAULT: '#4f46e5',
+          deep: '#3730a3'
         },
         glass: 'rgba(255,255,255,0.04)'
       },

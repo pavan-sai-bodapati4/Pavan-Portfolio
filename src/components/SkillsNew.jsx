@@ -1,5 +1,6 @@
 import React from 'react'
 import Animated from './Animated'
+import { FaCircle } from 'react-icons/fa'
 
 const skills = [
   'JavaScript',
@@ -22,7 +23,7 @@ export default function SkillsNew() {
         <div className="mt-3 flex flex-wrap gap-2">
           {skills.map((s, i) => (
             <Animated key={s} index={i + 1} hover>
-              <span className="px-3 py-1 rounded-md bg-slate-700 text-sm cursor-default">{s}</span>
+              <span className="px-3 py-1 rounded-md bg-slate-700 text-sm cursor-default inline-flex items-center gap-2"><FaCircle className="text-amber-400 text-[10px]" />{s}</span>
             </Animated>
           ))}
         </div>

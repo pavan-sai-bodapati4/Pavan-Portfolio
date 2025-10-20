@@ -1,5 +1,6 @@
 import React from 'react'
 import Animated from './Animated'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -14,9 +15,9 @@ export default function Footer() {
             <div className="text-sm text-slate-300">
               <div>Phone: +91 8297416141</div>
               <div>Email: pavansaibodapati4@gmail.com</div>
-              <div className="mt-2 space-x-3">
-                <a className="text-accent hover:underline" href="https://github.com/pavan-sai-bodapati4" target="_blank">GitHub</a>
-                <a className="text-accent hover:underline" href="https://www.linkedin.com/in/pavan-sai-bodapati-780b69225" target="_blank">LinkedIn</a>
+              <div className="mt-2 space-x-3 flex items-center justify-end">
+                <a className="text-accent hover:underline inline-flex items-center gap-2" href="https://github.com/pavan-sai-bodapati4" target="_blank"><FaGithub /> GitHub</a>
+                <a className="text-accent hover:underline inline-flex items-center gap-2" href="https://www.linkedin.com/in/pavan-sai-bodapati-780b69225" target="_blank"><FaLinkedin /> LinkedIn</a>
               </div>
             </div>
           </div>

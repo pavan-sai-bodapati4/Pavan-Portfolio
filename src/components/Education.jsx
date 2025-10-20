@@ -1,11 +1,12 @@
 import React from 'react'
 import Animated from './Animated'
+import { FaGraduationCap } from 'react-icons/fa'
 
 export default function Education() {
   return (
     <Animated className="card" index={2}>
       <section id="education">
-        <h2 className="text-xl font-semibold">Education</h2>
+    <h2 className="text-xl font-semibold flex items-center gap-2"><FaGraduationCap /> Education</h2>
         <div className="mt-3 text-sm text-slate-300 space-y-3">
           <div>
             <div className="font-medium">DNR College of Engineering and Technology</div>
